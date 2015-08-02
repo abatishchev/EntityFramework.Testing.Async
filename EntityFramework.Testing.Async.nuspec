@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EntityFramework.Testing.Async</id>
+    <summary>Simplifying the testing of async methods in Entity Framework.</summary>
+    <description>A set of extensions to simplify the testing of async methods in Entity Framework and LINQ to Entities.</description>
+    <version>$Version$</version>
+    <authors>Alexander Batishchev</authors>
+    <projectUrl>https://github.com/abatishchev/EntityFramework.Testing.Async</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>EF EntityFramework UnitTesting Async</tags>
+    <language>en-US</language>
+    <dependencies >
+      <dependency id="EntityFramework" version="" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="EntityFramework.Testing.Async\bin\$Configuration$\EntityFramework.Testing.Async.*" target="lib\net45" />
+  </files>
+</package>
